@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite it using the metadata below."
+title: "Is ICT changing how people spend and organise their day? Evidence from two harmonised UK time-use surveys, 2014–15 and 2023, with particular attention to travel"
+authors:
+  - family-names: Peng
+    given-names: Jile
+repository-code: "https://github.com/jilepeng03/ict-time-use-travel-msc-thesis"
+license: "proprietary"
+keywords:
+  - ICT
+  - time use
+  - travel behaviour
+  - MDCEV
+  - UK Time Use Survey
+  - National Travel Survey
+  - activity-based analysis
