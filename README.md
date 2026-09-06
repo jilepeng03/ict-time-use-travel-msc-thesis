@@ -127,7 +127,9 @@ Citation metadata for this repository are provided in [`CITATION.cff`](CITATION.
 
 ## Licence
 
-The repository is currently being prepared as a private thesis repository. The included `LICENSE` is deliberately restrictive pending confirmation with the supervisor about the appropriate open-source licence and the data/IP position. Replace it with the agreed licence (for example, MIT if approved) before presenting the repository as openly reusable.
+The code in this repository is released under the MIT License. See [LICENSE](LICENSE) for details.
+
+The datasets used in this research are not included in the repository and remain subject to their respective access conditions and licensing terms.
 
 ## Contact
 
