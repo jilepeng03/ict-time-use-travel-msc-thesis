@@ -5,7 +5,7 @@ authors:
   - family-names: Peng
     given-names: Jile
 repository-code: "https://github.com/jilepeng03/ict-time-use-travel-msc-thesis"
-license: "proprietary"
+license: "MIT"
 keywords:
   - ICT
   - time use
