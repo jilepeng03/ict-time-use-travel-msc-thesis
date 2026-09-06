@@ -25,6 +25,9 @@ The analysis uses a multiple discrete–continuous extreme value (MDCEV) model o
 ├── CITATION.cff
 ├── LICENSE
 ├── .gitignore
+├── .Rprofile
+├── renv.lock
+├── ict-time-use-travel-msc-thesis.Rproj
 ├── code/
 │   ├── 01_harmonised_timeuse_analysis.R
 │   ├── 02_mdcev_pooled_analysis.R
@@ -37,6 +40,9 @@ The analysis uses a multiple discrete–continuous extreme value (MDCEV) model o
 │   ├── README.md
 │   ├── create_renv_lock.R
 │   └── PACKAGE_CITATIONS.md
+├── renv/
+│   ├── activate.R
+│   └── settings.json
 └── results/
     └── README.md
 ```
@@ -103,7 +109,13 @@ Generated figures, tables, model objects, and diagnostics are written to `combin
 
 The analysis uses R packages including `haven`, `dplyr`, `tidyr`, `readr`, `ggplot2`, `forcats`, `scales`, `stringr`, `ggpattern`, `purrr`, `tibble`, `patchwork`, and `apollo`. The MDCEV scripts were tested against **Apollo 0.3.8**, and the plotting script requires **ggplot2 >= 4.0.2**.
 
-An exact `renv.lock` should be generated from the original R installation used for the thesis before the repository is made public. See [`environment/README.md`](environment/README.md) and [`environment/create_renv_lock.R`](environment/create_renv_lock.R). Package citation information is in [`environment/PACKAGE_CITATIONS.md`](environment/PACKAGE_CITATIONS.md).
+The R environment used for the thesis is recorded in `renv.lock` (R 4.5.1), generated from the original R installation used for the final analysis. To restore the recorded package environment, open the project in R and run:
+
+```r
+renv::restore()
+```
+
+See [`environment/README.md`](environment/README.md) for environment details and [`environment/PACKAGE_CITATIONS.md`](environment/PACKAGE_CITATIONS.md) for package citation information.
 
 ## Thesis
 
