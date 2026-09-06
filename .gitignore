@@ -1,13 +1,11 @@
-# Raw and restricted data
-data/*.dta
-data/*.sav
-data/*.csv
-data/*.xlsx
-data/*.rds
-data/*.RData
-data/*.rda
+# Raw and restricted survey data
+data/*
+!data/README.md
 
-# Generated model and analysis outputs
+# Generated analysis outputs
+combined_outputs_harmonised/
+
+# Optional results folder: keep documentation only by default
 results/*
 !results/README.md
 
@@ -16,6 +14,11 @@ results/*
 .RData
 .Ruserdata
 .Rproj.user/
+
+# renv local library/cache; keep renv.lock and activation files
+renv/library/
+renv/staging/
+renv/python/
 
 # macOS
 .DS_Store
