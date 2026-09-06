@@ -24,7 +24,8 @@
 #      Do NOT run Section 4 onwards.
 #   2. source("code/03_mdcev_2stage_crossfit.R")
 #
-# It must be that script, not mdcev_STEP1_STEP2_coherent1.R. Only the pooled
+# Use the pooled analysis script above because it contains the current specification
+# and the cache-aware run_mdcev() function required by this robustness check.
 # script has the current specification (out_share removed) and the
 # cache-aware run_mdcev().
 # ============================================================
