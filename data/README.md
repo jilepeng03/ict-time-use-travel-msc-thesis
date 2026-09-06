@@ -56,7 +56,7 @@ data/
 └── household_eul_2002-2024.dta
 ```
 
-The repository `.gitignore` excludes `.dta` files, helping prevent accidental upload of licensed microdata.
+The repository `.gitignore` excludes all files placed in `data/` except this README, helping prevent accidental upload of licensed or restricted microdata.
 
 ## Redistribution
 
