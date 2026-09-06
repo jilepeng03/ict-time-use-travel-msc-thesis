@@ -57,11 +57,13 @@
 library(haven)
 library(dplyr)
 
-# ggpattern needs ggplot2 >= 4.0.2.
-# If ggplot2 is too old, update it before loading ggplot2/ggpattern.
-if (!requireNamespace("ggplot2", quietly = TRUE) || packageVersion("ggplot2") < "4.0.2") {
-  install.packages("ggplot2")
+# ggpattern requires ggplot2 >= 4.0.2.
+# Package versions used for the thesis are recorded in renv.lock.
+if (!requireNamespace("ggplot2", quietly = TRUE) ||
+    packageVersion("ggplot2") < "4.0.2") {
+  stop("ggplot2 >= 4.0.2 is required. Restore the project environment with renv::restore().")
 }
+
 library(ggplot2)
 library(forcats)
 library(scales)
@@ -70,10 +72,8 @@ library(tidyr)
 library(readr)
 
 # For hatched bars indicating non-significant results
-# Install once if needed. If your R cannot install automatically, run:
-# install.packages("ggpattern")
 if (!requireNamespace("ggpattern", quietly = TRUE)) {
-  install.packages("ggpattern")
+  stop("Package 'ggpattern' is required. Restore the project environment with renv::restore().")
 }
 library(ggpattern)
 
