@@ -12,7 +12,7 @@ The analysis scripts note compatibility with Apollo **0.3.8**.
 
 The code also relies on `dplyr`, `forcats`, `ggpattern`, `ggplot2`, `haven`, `patchwork`, `purrr`, `readr`, `scales`, `stringr`, `tibble`, and `tidyr`.
 
-Package-maintainer citation recommendations can change between package versions. After creating the exact `renv.lock`, obtain the preferred citation corresponding to the installed version directly in R, for example:
+Package-maintainer citation recommendations can change between package versions. The exact package versions used for the thesis are recorded in `renv.lock`. Preferred citations for the installed versions can be obtained directly in R, for example:
 
 ```r
 citation("ggplot2")
