@@ -1,0 +1,25 @@
+# Raw and restricted data
+data/*.dta
+data/*.sav
+data/*.csv
+data/*.xlsx
+data/*.rds
+data/*.RData
+data/*.rda
+
+# Generated model and analysis outputs
+results/*
+!results/README.md
+
+# R / RStudio local files
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+
+# macOS
+.DS_Store
+
+# Temporary files
+*.tmp
+*.log
